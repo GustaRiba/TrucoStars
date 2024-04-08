@@ -1,0 +1,27 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.retangulo{
+	width: 600px; /* Largura do retângulo */
+    height: 400px; /* Altura do retângulo */
+    background-color: rgb(73, 17, 17); /* Cor de fundo do retângulo */
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.player#player-1{
+	color: aliceblue;
+	position: absolute;
+    top: 50px; /* Distância do topo */
+    right: 110px;
+}
+.player#player-2 {
+	color: aliceblue;
+	position: absolute;
+	top: 570px;
+	left: 100px;
+}

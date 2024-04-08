@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("imagens/TelaPrincipal.jpg");
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li1 {
+	color: aliceblue;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 400px;
+}
+.participante1 img{
+	width: 200px;
+	position: absolute;
+	top: 20px;
+}
+li{
+	color: aliceblue;
+	margin-bottom: 10px;
+	position: absolute;
+	top: px;
+}
+.participante img{
+	width: 200px;
+	position: absolute;
+	top: 90px;
+}
+.participante-name {
+	margin-right: 200px;
+}
+p2{
+	position: absolute;
+	top: 652px;
+	left: 20px;
+	color: red;
+	font-size: 0.9em;
+	margin-bottom: 40px;
+}

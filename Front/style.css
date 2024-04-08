@@ -1,0 +1,91 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('imagens/TelaPrincipal.jpg');
+	background-size: contain;
+	background-position: center;
+}
+header {
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+p {
+	color: #fff;
+	text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+p1 {
+	color: #fff;
+	text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+p2{
+    position: absolute;
+    top: 652px;
+    left: 20px;
+	color: red;
+    font-size: 0.9em;
+    margin-bottom: 40px;
+}
+button.start-button {
+	text-align: center;
+    display: block;
+    margin: 0 auto; /* Define margem automática nas laterais para centralizar horizontalmente */
+}
+button.stats-button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.stats-button {
+    width: 250px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.stats-button:hover {
+    background-color: #e60000;
+}
+.credits-button {
+    width: 250px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.credits-button:hover {
+    background-color: #e60000;
+}
+.start-button {
+    width: 250px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.start-button:hover {
+    background-color: #e60000;
+}
